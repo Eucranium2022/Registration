@@ -336,15 +336,9 @@ select {
 }
 
 .check-box .checkmark:after {
-  left: 2px;
-  top: 2px;
-  width: 3px;
-  height: 8px;
-  bottom: 2px;
-  height: 11px;
-  width: 11px;
-  background-color: rgb(255, 255, 255);
-  right: 2px;
-  border-radius: 30%;
+  content: "✔";
+  left: 0px;
+  position: relative;
+  bottom: 10px;
 }
 
