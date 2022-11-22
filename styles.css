@@ -26,7 +26,7 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  padding: 0 10px;
+  padding: 0px;
 }
 
 .logo {
@@ -41,8 +41,9 @@ body{
   text-align: center;
   margin-bottom: 25px;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
+
 
 .wrapper .form .input_field{
   margin-bottom: 10px;
@@ -179,9 +180,9 @@ select {
 .container{
   position: relative;
   width: 400px;
-  min-height: 100px;
+  min-height: 150px;
   padding-top: 300px;
-  padding-bottom: 530px;
+  padding-bottom: 570px;
   background: rgba(255,255,255,0.1);
   border-radius: 10px;
   display: flex;
@@ -233,6 +234,7 @@ select {
 .zoom:hover {
   transform: scale(1.15);
 }
+
 
 .zoom1 {
   transition: transform .2s; /* Animation */
@@ -342,3 +344,10 @@ select {
   bottom: 10px;
 }
 
+.notif h4{
+  text-align: center;
+  color: #ffffff;
+  font-size: 25px;
+  padding: 0px;
+  padding-bottom: 5px;
+} 
